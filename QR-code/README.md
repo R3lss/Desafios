@@ -5,4 +5,4 @@
 ## Bem-vindo(a)! 👋
 
 Este é o primeiro desafio, onde eu tinha que recriar essa imagem acima\
-Link Live: https://desafios-pkzpv8022-r3lss-projects.vercel.app
+Link Live: https://desafios-livid.vercel.app
