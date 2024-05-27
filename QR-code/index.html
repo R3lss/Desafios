@@ -10,38 +10,47 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
     body{
-      background-color: rgb(202, 232, 243);
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Outfit, sans-serif;
+    color: #7d889e;
+    text-align: center;
+      background-color: hsl(212, 45%, 89%);
     }
     img{
-      padding-top: 8px;
-      width: 225px;
       border-radius: 15px;
+      padding-top: 8px;
+      width: 280px;
       height: 230px;
     }
     h1{
-      font-family: 'Times New Roman', Times, serif;
-      color: rgb(34, 33, 53);
+      padding-left: 40px;
+      padding-right: 40px;
+      font-weight: 700;
+      font-family: "Outfit", sans-serif;
+      color: hsl(218, 44%, 22%);
       font-size: 20px;
     }
     p{
-      padding-right: 5px;
-      padding-left: 5px;
+      font-weight: 400;
+      padding-right: 48px;
+      padding-left: 48px;
       font-size: 15px;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: "Outfit", sans-serif;
       color: gray;
     }
     .quadrado{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
       text-align: center;
       border-radius: 20px;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       background-color: white;
-      height: 400px;
-      width: 250px;
+      height: 420px;
+      width: 320px;
     }
     .attribution {
       
@@ -53,7 +62,6 @@
 <body>
   <div class="quadrado">
     <img src="images/image-qr-code.png" alt="imagem quadrado">
-    <span></span>
     <h1>
       Improve your front-end skills by building projects
       
@@ -64,7 +72,7 @@
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Erik</a>.
+    Coded by <a href="https://github.com/R3lss">Erik</a>.
   </footer>
 </body>
 </html>
