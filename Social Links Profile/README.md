@@ -15,7 +15,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 Obrigado por olhar esse desafio de front-end
 
 
-Essa é a solução para o [desafio links sociais do Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).  
+Essa é a solução para o [Desafio links sociais do Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).  
 
 
 - Live Site URL: [Site Live](https://desafios-s92k.vercel.app)
