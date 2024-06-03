@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 8%);
+}
+.quadrado{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    width: 385px;
+    background-color: hsl(0, 0%, 12%);
+}
+img{
+    margin-top: 1em;
+    border-radius: 50%;
+    height: 6em;
+}
+h1{
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+h3{
+    margin-top: 0.75em;
+    margin-bottom: 1.8em;
+    font-weight: 600;
+    font-size: 15px;
+    color:  hsl(75, 94%, 57%);
+}
+p{
+    margin-bottom: 1.6em;
+    font-weight: 300;
+    color:  hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+ul{
+    margin: 8px;
+    padding-inline-start: 0px;
+    color: hsl(0, 0%, 100%);
+    list-style: none;
+}
+li{
+    padding: 3px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    margin: 15px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+}
+li:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
