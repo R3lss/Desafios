@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+/* font-family: "Young Serif", serif;
+    font-family: "Outfit", sans-serif;  
+ */
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;  
+    color: hsl(30, 10%, 34%);
+}
+
+.titulo{
+    font-size: 1.75em;
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+}
+
+
+ .quadrado{
+    text-align: start;
+    width: 600px;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+ img{
+    height: 17rem;
+    border-radius: 15px;
+ }
+
+.rosa{
+    border-radius: 15px;
+    padding: 0.2rem 2rem;
+    background-color: hsl(330, 100%, 98%);
+}
+ 
+.lista{
+    padding-inline-start: 18px;
+}
+
+li.rosinha::marker{
+    color:  hsl(332, 51%, 32%);
+}
+
+li.marromzin::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+li.marromzin2::marker{
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+li{
+    padding: 0 0 0.75rem 1rem;
+ }
+
+ table{
+    padding-left: 1.75rem;
+}
+
+.numero{
+    font-weight: 700;
+}
+
+.marrom{
+    color: hsl(14, 45%, 36%);
+}
+ 
+hr{
+    border-color: hsl(30, 18%, 87%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 600px){
+    body{
+        align-items: baseline;
+    }
+    .quadrado{
+        width: 440px;
+    }
+    img{
+        height: 12.5rem;
+    }
+    .attribution{
+        align-self: center;
+    }
+}
